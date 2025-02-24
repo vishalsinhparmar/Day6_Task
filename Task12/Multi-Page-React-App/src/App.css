@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: blue; */
+}
+
+header  .Navabar-brand{
+ background-color: black;
+ color: white;
+ padding: 10px 20px;
+ box-shadow: 2px 3px 4px lightblue;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+ .Navabar-brand .logo a{
+   font-size: xx-large;
+   font-weight: 600;
+   /* flex-grow: unset; */
+   color: white;
+   text-decoration: none;
+}
+ .Navabar-brand ul{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ .Navabar-brand ul li{
+    list-style: none;
+    padding: 2px 5px;
+    /* color: white; */
+}
+.Navabar-brand ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* about us */
+
+section .section_part{
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: black;
+   color: white;
+}
+.section_part h3{
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+  border-bottom: 1px dotted white;
+  width: 25%;
+  margin: auto;
+  padding: 20px;
+}
+
+.detail-about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5;
+  padding: 10px;
+  height: 80dvh;
+  align-content: center;
+  justify-content: space-around;
+}
+.content{
+  height: 100%;
+  display: grid;
+  align-content: center;
+  justify-content: center; 
+}
+.content button{
+   background-color: green;
+   color: white;
+   padding: 8px;
+   border: none;
+   outline: none;
+   text-align: center;
+   width: 20%;
+   border-radius: 4px;
+   box-shadow: 2px 2px 4px black;
+   cursor: pointer;
+   font-weight: 500;
+   font-size: medium;
+   letter-spacing: 0.5px;
+}
+.content p{
+  width: 100%;
+   padding: 20px 0;
+   text-align: start;
+   font-size: large;
+}
+.content strong{
+   font-size: xx-large;
+   /* padding: 20px 0; */
+}
+.location{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  font-size: x-large;
+}
+.location i{
+ margin-right: 10px;
+}
+.section_part .detail .content{
+  color: white;
+  font-weight: 600;
+  font-weight: 300;
+  font-size: medium;
+
+}
+.img_section img{
+  background-position: center;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-origin: content-box;
+  border: 1px solid greenyellow;
+}
+
+.img_section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+/* footer-start */
+/* ContactUs Styles */
+.contact-section {
+  padding: 5rem 1rem;
+  background-color: #f9fafb;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.contact-card {
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.contact-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #10b981;
+}
+
+.contact-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #1f2937;
+}
+
+.contact-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 4px rgba(16, 185, 129, 0.3);
+}
+
+.contact-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.contact-checkbox input {
+  margin-right: 0.5rem;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #10b981;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #059669;
+}
+
+/* Contact Info */
+.contact-info h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  font-size: 1.75rem;
+  transition: color 0.3s;
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+
+.github {
+  color: #333;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.linkedin:hover {
+  color: #084c9a;
+}
+
+.github:hover {
+  color: #555;
+}
+
+.twitter:hover {
+  color: #1b91da;
+}
+
+
+/* footer-end */
+
+
+.footer {
+  background-color: #000;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+.footer-link {
+  color: #22c55e;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #16a34a;
+}
+.divider {
+  color: white;
+}
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.8rem;
+}
+.linkedin {
+  color: #0077b5;
+}
+.linkedin:hover {
+  color: #005582;
+}
+.github {
+  color: #d1d5db;
+}
+.github:hover {
+  color: #9ca3af;
+}
+.twitter {
+  color: #1da1f2;
+}
+.twitter:hover {
+  color: #0c85d0;
+}
+.Navabar-brand ul li a.active{
+  color: green;
+  border-bottom: 2px solid green;
+}
